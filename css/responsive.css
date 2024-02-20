@@ -1,0 +1,122 @@
+ 
+ @media screen and (max-width: 765px) {
+    :root{
+        --responsive-nav: rgba(3, 3, 108, 0.56);
+
+    }
+    
+    
+    .nav-list {
+      position: fixed;
+      top: 0;
+      left: -100%;
+      background:whitesmoke ;
+      height: 100%;
+      width: 40%;
+      display: grid;
+      font-weight: bold;
+    }
+    .nav-list li {
+      
+      padding: 2.5em 4em;
+    }
+    .button{
+       margin-left:3.2em;
+       margin-top: 2.5em;
+    }
+    .active {
+      left: 0;
+    }
+    .toggle {
+      display: grid;
+      gap: 1px;
+      padding: 0 32px;
+    }
+    .toggle .line {
+      width: 30px;
+      height: 10px;
+      background-color:var(--responsive-nav);
+      
+      
+     
+    }
+  }
+  .first-sec{
+    flex-direction: column;
+    place-content: center;
+      align-items: center;
+      justify-self: center;
+      text-transform: uppercase;
+      font-size: 1.2em;
+      color: white;
+      background-image: url(blue.jpeg);
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+    
+  
+  nav {
+    display: flex;
+    align-items: center;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    justify-content: space-between;
+    padding: 15px;
+    text-transform: uppercase;
+    background-color: var(--main);
+    margin: 0 0 20px 0;
+  }
+
+
+  
+  
+   @media screen and (min-width: 765px) {
+    
+    .nav-list {
+        .ul{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-transform: capitalize;
+            
+      gap: 30px;
+        }
+        
+      
+    }
+    
+    .toggle {
+      display: none;
+    }
+  }
+  
+  .first-sec{
+        display: flex;
+        align-items: center;
+    h1{
+        font-size: 50px;
+        
+    }
+   .first-subcon{
+    margin: 40px 0 40px 0;
+   }
+  } 
+  
+  @media screen and (min-width: 765px){
+    .three{
+      .first-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+    .work-container{
+      display: flex;
+      align-self: center;
+      justify-content: center;
+    
+     }
+  }
+  
